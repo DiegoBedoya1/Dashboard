@@ -3,7 +3,7 @@ import { type OpenMeteoResponse } from '../types/DashboardTypes';
 
 export interface proceData{
     data: OpenMeteoResponse | null,
-    isLoading: boolean,
+    loading: boolean,
     error: string | null
 
 }

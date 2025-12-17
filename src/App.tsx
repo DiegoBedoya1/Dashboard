@@ -77,7 +77,7 @@ function App() {
       <Grid sx={{ display: { xs: "none", md: "block"} }}> <ChartUI{...dataFetchOutput}/> </Grid>
 
       {/* Tabla */}
-      <Grid sx={{ display: { xs: "none", md: "block" } }}>Elemento: Tabla <TableUI/></Grid>
+      <Grid sx={{ display: { xs: "none", md: "block" } }}> <TableUI{...dataFetchOutput} /></Grid>
 
       {/* Información adicional */}
       <Grid>Elemento: Información adicional</Grid>

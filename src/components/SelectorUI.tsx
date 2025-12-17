@@ -12,7 +12,7 @@ export default function SelectorUI({onOptionSelect}: SelectorProps){
 
     const handleChange = (event: SelectChangeEvent<string>) => {
     setCityInput(event.target.value as string);
-    onOptionSelect(selectedValue);
+    onOptionSelect(event.target.value);
 };
     const handleClick = () => {
         alert("click");
