@@ -1,3 +1,4 @@
+
 //import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
@@ -78,12 +79,6 @@ function App() {
 
       {/* Tabla */}
       <Grid sx={{ display: { xs: "none", md: "block" } }}> <TableUI{...dataFetchOutput} /></Grid>
-
-      {/* Información adicional */}
-      <Grid>Elemento: Información adicional</Grid>
-
-      
-
     </Grid>
   )
 }

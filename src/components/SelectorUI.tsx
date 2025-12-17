@@ -29,10 +29,10 @@ export default function SelectorUI({onOptionSelect}: SelectorProps){
             onChange = {handleChange}
             >
                 <MenuItem disabled> <em> Seleccione una ciudad</em></MenuItem>
-                <MenuItem value = {"guayaquil"}>Guayaquil</MenuItem>
-                <MenuItem value = {"quito"}>Quito</MenuItem>
-                <MenuItem value = {"cuenca"}>Cuenca</MenuItem>
-                <MenuItem value = {"manta"}>Manta</MenuItem>
+                <MenuItem value = {"Guayaquil"}>Guayaquil</MenuItem>
+                <MenuItem value = {"Quito"}>Quito</MenuItem>
+                <MenuItem value = {"Cuenca"}>Cuenca</MenuItem>
+                <MenuItem value = {"Manta"}>Manta</MenuItem>
             </Select>
             {cityInput && (
             <p>
