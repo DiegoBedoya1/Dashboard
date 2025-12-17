@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://DiegoBedoya1.github.io/Dashboard",
+  "homepage": "https://diegobedoya1.github.io/Dashboard",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
